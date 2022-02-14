@@ -23,14 +23,20 @@ body{
 
 h1{
     margin: 0;
+    font-size: 35px;
 }
 
 #booleaner{
     color: rgba(32, 169, 229, 1);
 }
 
+.titledes{
+    color: rgba(128, 128, 128, 1);
+}
+
+
 img{
-    margin-top: 8px;
+    margin-top: 20px;
 }
 
 .picdes{
@@ -41,11 +47,10 @@ img{
 
 .highlighted{
     background-color: yellow;
-
 }
 
-.ul{
-    text-align: start;
+ul{
+    margin-left: -25px;
 }
 
 /* Table */
