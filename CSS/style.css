@@ -1,12 +1,11 @@
 body{
     width: 1024px;
 }
+
 /* Header */
 #head{
     height: 150px;
     background-image: url(../img/pattern.png);
-    
-    
 }
 
 #logo{
@@ -14,6 +13,7 @@ body{
 }
 
 /* Main */
+
 article{
     margin-bottom: 1rem;
 }
@@ -35,7 +35,24 @@ h1{
 
 }
 
-table{
+/* Table */
 
+#th{
+    width: 50%;
 }
+
+th{
+    text-align: start;
+}
+
+.trow{
+    background-color: rgba(177, 229, 242, 1);
+}
+
+#trow{
+    background-color: rgba(32, 169, 229, 1);
+    color: white;
+}
+
+
 /* Footer */
