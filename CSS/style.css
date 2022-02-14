@@ -6,10 +6,14 @@ body{
 #head{
     height: 150px;
     background-image: url(../img/pattern.png);
+    background-color: rgba(78, 160, 255, 1);
 }
 
 #logo{
-    max-height: 100px;
+    height: 80px;
+    
+
+
 }
 
 /* Main */
@@ -17,9 +21,11 @@ body{
 article{
     margin-bottom: 1rem;
 }
+
 h1{
     margin: 0;
 }
+
 #booleaner{
     color: rgba(32, 169, 229, 1);
 }
@@ -33,6 +39,10 @@ h1{
 .highlighted{
     background-color: yellow;
 
+}
+
+.ul{
+    text-align: start;
 }
 
 /* Table */
@@ -56,3 +66,39 @@ th{
 
 
 /* Footer */
+
+#foot{
+    color: rgba(128, 128, 128, 1);
+    font-weight: bold;
+}
+
+
+.imgtext{
+    text-align: start;
+}
+
+.imgcontainer{
+    height: 150px;
+    width: 200px;
+    background-image: url(../img/monitor.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 8px;
+    margin-top: 4px;
+}
+
+.imgtext{
+    color: white;
+    font-size: 20px;
+    padding-left: 20px;
+    padding-top: 10px;
+   
+}
+
+.imgcontainer2{
+    height: 150px;
+    width: 200px;
+    background-image: url(../img/graph.jpg);
+    background-size: cover;
+    background-position: center;
+}
