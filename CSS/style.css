@@ -1,7 +1,12 @@
+body{
+    width: 1024px;
+}
 /* Header */
-
 #head{
-    background-image: url("./img/pattern.png");
+    height: 150px;
+    background-image: url(../img/pattern.png);
+    
+    
 }
 
 #logo{
@@ -9,7 +14,12 @@
 }
 
 /* Main */
-
+article{
+    margin-bottom: 1rem;
+}
+h1{
+    margin: 0;
+}
 #booleaner{
     color: rgba(32, 169, 229, 1);
 }
@@ -17,5 +27,15 @@
 .picdes{
     font-style: italic;
     font-size: 12px;
+    display: block;
+}
+
+.highlighted{
+    background-color: yellow;
+
+}
+
+table{
+
 }
 /* Footer */
