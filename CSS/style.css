@@ -1,0 +1,21 @@
+/* Header */
+
+#head{
+    background-image: url("./img/pattern.png");
+}
+
+#logo{
+    max-height: 100px;
+}
+
+/* Main */
+
+#booleaner{
+    color: rgba(32, 169, 229, 1);
+}
+
+.picdes{
+    font-style: italic;
+    font-size: 12px;
+}
+/* Footer */
